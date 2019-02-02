@@ -1,0 +1,5 @@
+CheckStyle
+https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml
+
+Formatter
+https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml

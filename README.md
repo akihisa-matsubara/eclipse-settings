@@ -1,11 +1,11 @@
 # eclipse-settings
-Eclipseの設定
+Eclipseの設定  
 
 ## 利用バージョン
-2019.03(V4.11)
-Pleiades All in One Java
-Full edition
-64bit
+2019.03(V4.11)  
+Pleiades All in One Java  
+Full edition  
+64bit  
 
 http://mergedoc.osdn.jp/
 
@@ -30,6 +30,7 @@ http://mergedoc.osdn.jp/
 C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 -Xms3g
 -Xmx3g
+-Dfile.encoding=utf-8
 ```
 
 ### Settings

@@ -204,4 +204,7 @@
   <module name="FileTabCharacter">
     <property name="eachLine" value="true"/>
   </module>
+  <module name="SuppressionFilter">
+    <property name="file" value="my_checks__resources_suppressions.xml"/>
+  </module>
 </module>

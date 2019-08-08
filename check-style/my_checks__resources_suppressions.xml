@@ -3,6 +3,6 @@
 <suppressions>
 
   <!-- Ignore test source -->
-  <suppress files=".*[\\/]src/test[\\/].*\.java" checks=".*"/>
+  <suppress files=".*[\\/]src[\\/]test[\\/].*\.java" checks="AvoidStarImport|JavadocMethod"/>
 
 </suppressions>

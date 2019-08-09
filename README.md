@@ -73,6 +73,9 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 - Java>コンパイラー>エラー/警告  
   潜在的なプログラミングの問題>serialVersionUID なしのシリアライズ可能クラス    警告  
 
+- Java 永続化>JPA>エラー/警告  
+    型>解決できないマッピング・ファイル    警告  
+
 - Maven>ユーザー設定  
   グローバル設定  
   設定の更新  

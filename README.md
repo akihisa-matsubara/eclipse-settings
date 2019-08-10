@@ -51,6 +51,7 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 
 - Checkstyle>新規  
   my_checks  
+  my_checks 構成>フィルター>抑制フィルター>開く `my_checks__resources_suppressions.xml` を指定  
 
 - EGradle>エディター>構文の色の指定  
   通常の文字列               薄紫  

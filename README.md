@@ -106,3 +106,24 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
   シングル・クォート文字列   薄紫  
   型                       薄青  
   識別子                   薄ピンク  
+
+
+# 番外編：vscode-settings
+Visual Studio Codeの設定  
+
+## 利用プラグイン
+1.  Table Formatter
+1.  Auto-Open Markdown Preview
+1.  Material Icon Theme
+
+## 等倍フォントの設定
+メニュー>ファイル>基本設定>設定  
+```
+{
+    "editor.fontFamily": "Ricty Diminished",
+    // フォントサイズ
+    "editor.fontSize": 14,
+    // ホワイトスペースの表示
+    "editor.renderWhitespace": "all",
+}
+```

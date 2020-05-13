@@ -115,7 +115,7 @@ Visual Studio Codeの設定
 1.  Table Formatter
 1.  Auto-Open Markdown Preview
 1.  Material Icon Theme
-1.  EsLint
+1.  EsLint (Style: AirBnB)
 1.  code-eol
 
 ## 等倍フォントの設定

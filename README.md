@@ -2,7 +2,7 @@
 Eclipseの設定  
 
 ## 利用バージョン
-2019.03(V4.11)  
+2020.06(V4.16)  
 Pleiades All in One Java  
 Full edition  
 64bit  
@@ -10,7 +10,7 @@ Full edition
 http://mergedoc.osdn.jp/
 
 ## 利用プラグイン
-1.  ~~YEdit~~
+1.  YEdit
 1.  ~~Spring Tools 4 - for Spring Boot~~
 1.  IBM WebSphere Application Server Developer Tools  
     IBM WebSphere Application Server V9.x Developer Tools  
@@ -50,8 +50,12 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
   Ricty Diminished  
 
 - Checkstyle>新規  
-  my_checks  
-  my_checks 構成>フィルター>抑制フィルター>開く `my_checks__resources_suppressions.xml` を指定  
+  プロジェクト相対構成
+  sample-build-tools>src>main>resources>check-style>my_check.xml
+  名前                my_checks  
+  追加プロパティ  
+    org.checkstyle.google.suppressionfilter.config  my_checks__resources_suppressions.xmlへのパス  
+    ex. C:\repository\sample-build-tools\src\main\resources\check-style\my_checks__resources_suppressions.xml  
 
 - EGradle>エディター>構文の色の指定  
   通常の文字列               薄紫  
@@ -59,11 +63,17 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 - ERMaster>JDBCドライバー  
   DB2 編集
 
+- Hocon>構文の色指定  
+  Comment                  黄色
+
 - Java>インストール済みのJRE  
   WebSphere Application Server  
 
 - Java>インストール済みのJRE>実行環境  
   Java1.8 -> WebSphere Application Server  
+
+- Java>エディター>保存アクション  
+  ソース・コードのフォーマット      ON  
 
 - Java>コード・スタイル>インポートの編成  
   インポート  
@@ -75,10 +85,10 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
   潜在的なプログラミングの問題>serialVersionUID なしのシリアライズ可能クラス    警告  
 
 - Java 永続化>JPA>エラー/警告  
-  型>解決できないマッピング・ファイル    警告  
+  永続化単位>解決できないマッピング・ファイル    警告  
 
-- JavaScript>コード・スタイル>フォーマッター  
-  インポート  
+- ~~JavaScript>コード・スタイル>フォーマッター  
+  インポート~~  
 
 - Maven>ユーザー設定  
   グローバル設定  

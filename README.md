@@ -11,6 +11,7 @@ http://mergedoc.osdn.jp/
 
 ## 利用プラグイン
 1.  YEdit
+    https://github.com/oyse/yedit  
 1.  ~~Spring Tools 4 - for Spring Boot~~
 1.  IBM WebSphere Application Server Developer Tools  
     IBM WebSphere Application Server V9.x Developer Tools  
@@ -19,12 +20,19 @@ http://mergedoc.osdn.jp/
 1.  sonarlint 4.1
 1.  ~~jshint~~
 1.  Darkest Dark Theme with DevStyle
-1.  Properties Editor
 1.  ERMaster
+    http://ermaster.sourceforge.net/index_ja.html  
 1.  ~~markdown editor~~  
     https://nodeclipse.github.io/updates/markdown/
 
+## CheckStyle (reference)
+https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml  
+
+## Formatter (reference)
+https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml  
+
 ### eclipse.ini
+for java8  
 ```
 -vm
 C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
@@ -32,6 +40,15 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 -Xmx3g
 -Dfile.encoding=utf-8
 ```
+
+for java11  
+```
+-Xms3g
+-Xmx3g
+-Dfile.encoding=utf-8
+-javaagent:dropins/MergeDoc/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar=no.clean.message
+```
+
 
 ### Settings
 - 一般>エディター>テキストエディター  
@@ -43,8 +60,9 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 
 - 一般>エディター>ファイルの関連付け  
   *.html             HTMLエディター  
-  *.properties       プロパティエディター  
+  *.properties       Limyプロパティエディター  
   *.yml, *.yaml      YEdit  
+  *.config           テキスト・エディター  
 
 - 一般>外観>色とフォント  
   Ricty Diminished  
@@ -89,6 +107,12 @@ C:/IBM/WebSphere/AppServer/java/8.0/bin/javaw.exe
 
 - ~~JavaScript>コード・スタイル>フォーマッター  
   インポート~~  
+
+- LimyEclipse
+  エディター背景色         黒  
+  プロパティ名             白  
+  プロパティ値             黄緑  
+  コメント                 黄色  
 
 - Maven>ユーザー設定  
   グローバル設定  
